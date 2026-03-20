@@ -1,0 +1,20 @@
+{
+  "name": "ezra-qa",
+  "version": "1.0.0",
+  "description": "QA automation suite for Ezra booking flow",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
