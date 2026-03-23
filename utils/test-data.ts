@@ -31,7 +31,7 @@ export const STRIPE_CARDS = {
 /**
  * Generates a unique test member for each test run.
  * Uses timestamp to avoid email collisions.
- * Password meets Ezra's requirements (uppercase, lowercase, number, special char).
+ * Password meets Ezra's requirements (uppercase, lowercase, number).
  */
 export function generateTestMember() {
   const timestamp = Date.now();
